@@ -17,7 +17,7 @@ const ExperiencePage = () => {
         <div className="container">
           <div className="w-full px-4">
             <div className="mx-auto mb-16 text-center">
-              <h4 className="mb-2 text-lg font-semibold uppercase text-primary">
+              <h4 className="mb-2 text-lg font-semibold uppercase text-[#4458dc]">
                 Pengalaman
               </h4>
             </div>
@@ -29,8 +29,8 @@ const ExperiencePage = () => {
                 {/* First Item */}
                 <li>
                   <div className="flex-start flex items-center pt-3">
-                    <div className="-ml-[5px] mr-3 h-[9px] w-[9px] rounded-full bg-primary"></div>
-                    <p className="inline-flex items-center rounded-full border border-cyan-500/40 bg-cyan-500/10 px-3 py-1 text-xs font-medium tracking-tight text-cyan-500 transition-colors hover:bg-cyan-500/20 focus:outline-none">
+                    <div className="-ml-[5px] mr-3 h-[9px] w-[9px] rounded-full bg-[#4458dc]"></div>
+                    <p className="inline-flex items-center rounded-full border border-[#4458dc]/40 bg-[#4458dc]/10 px-3 py-1 text-xs font-medium tracking-tight text-[#4458dc] transition-colors hover:bg-[#4458dc]/20 focus:outline-none">
                       Februari 2022 - Februari 2024
                     </p>
                   </div>
@@ -68,8 +68,8 @@ const ExperiencePage = () => {
                 {/* Second Item */}
                 <li>
                   <div className="flex-start flex items-center pt-3">
-                    <div className="-ml-[5px] mr-3 h-[9px] w-[9px] rounded-full bg-primary"></div>
-                    <p className="inline-flex items-center rounded-full border border-cyan-500/40 bg-cyan-500/10 px-3 py-1 text-xs font-medium tracking-tight text-cyan-500 transition-colors hover:bg-cyan-500/20 focus:outline-none">
+                    <div className="-ml-[5px] mr-3 h-[9px] w-[9px] rounded-full bg-[#4458dc]"></div>
+                    <p className="inline-flex items-center rounded-full border border-[#4458dc]/40 bg-[#4458dc]/10 px-3 py-1 text-xs font-medium tracking-tight text-[#4458dc] transition-colors hover:bg-[#4458dc]/20 focus:outline-none">
                       Oktober 2022 - Oktober 2023
                     </p>
                   </div>
@@ -114,8 +114,8 @@ const ExperiencePage = () => {
                 {/* Thrid Item */}
                 <li>
                   <div className="flex-start flex items-center pt-3">
-                    <div className="-ml-[5px] mr-3 h-[9px] w-[9px] rounded-full bg-primary"></div>
-                    <p className="inline-flex items-center rounded-full border border-cyan-500/40 bg-cyan-500/10 px-3 py-1 text-xs font-medium tracking-tight text-cyan-500 transition-colors hover:bg-cyan-500/20 focus:outline-none">
+                    <div className="-ml-[5px] mr-3 h-[9px] w-[9px] rounded-full bg-[#4458dc]"></div>
+                    <p className="inline-flex items-center rounded-full border border-[#4458dc]/40 bg-[#4458dc]/10 px-3 py-1 text-xs font-medium tracking-tight text-[#4458dc] transition-colors hover:bg-[#4458dc]/20 focus:outline-none">
                       Desember 2022 - Desember 2023
                     </p>
                   </div>

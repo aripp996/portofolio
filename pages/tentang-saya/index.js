@@ -21,13 +21,13 @@ const AboutPage = () => {
         <div className="container">
           <div className="flex flex-wrap">
             <div className="mb-10 w-full px-4 lg:w-1/2">
-              <h4 className="mb-3 text-lg font-bold uppercase text-primary">
+              <h4 className="mb-3 text-lg font-bold uppercase text-[#4458dc]">
                 Tentang Saya
               </h4>
 
               <h2 className="mb-5 max-w-lg text-3xl font-bold text-dark dark:text-white lg:text-4xl">
                 Menghubungkan Kreativitas Dengan{" "}
-                <span className="ml-1 inline-block -rotate-1 rounded-xl bg-gradient-to-r via-primary/20 px-4 py-1.5 text-lg tracking-tight shadow-2xl shadow-primary/[0.50] ring-2 ring-dark/70 dark:ring-white/70 sm:px-4 sm:py-3 sm:text-3xl lg:text-4xl">
+                <span className="ml-1 inline-block -rotate-1 rounded-xl bg-gradient-to-r via-primary/20 px-4 py-1.5 text-lg tracking-tight shadow-2xl shadow-[#4458dc]/[0.50] ring-2 ring-dark/70 dark:ring-white/70 sm:px-4 sm:py-3 sm:text-3xl lg:text-4xl">
                   Kode.
                 </span>
               </h2>
@@ -61,10 +61,10 @@ const AboutPage = () => {
                 <a
                   href="https://github.com/aripp996"
                   target="_blank"
-                  className="group mr-3 flex h-9 w-9 items-center justify-center rounded-full border border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white"
+                  className="group mr-3 flex h-9 w-9 items-center justify-center rounded-full border border-slate-300 text-slate-300 hover:border-[#4458dc] hover:bg-[#4458dc] hover:text-white"
                 >
                   <FaGithub className="h-6 w-6" />
-                  <span className="absolute mt-20 scale-0 rounded bg-primary text-white p-2 text-xs group-hover:scale-100 whitespace-normal transition duration-300 ease-in-out font-bold">
+                  <span className="absolute mt-20 scale-0 rounded bg-[#4458dc] text-white p-2 text-xs group-hover:scale-100 whitespace-normal transition duration-300 ease-in-out font-bold">
                     GitHub
                   </span>
                 </a>
@@ -73,10 +73,10 @@ const AboutPage = () => {
                 <a
                   href="https://www.youtube.com/channel/UCVfdHhVDpe3rsAAi3XbMSfQ#"
                   target="_blank"
-                  className="group mr-3 flex h-9 w-9 items-center justify-center rounded-full border border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white"
+                  className="group mr-3 flex h-9 w-9 items-center justify-center rounded-full border border-slate-300 text-slate-300 hover:border-[#4458dc] hover:bg-[#4458dc] hover:text-white"
                 >
                   <FaYoutube className="h-6 w-6" />
-                  <span className="absolute mt-20 scale-0 rounded bg-primary text-white p-2 text-xs group-hover:scale-100 whitespace-normal transition duration-300 ease-in-out font-bold">
+                  <span className="absolute mt-20 scale-0 rounded bg-[#4458dc] text-white p-2 text-xs group-hover:scale-100 whitespace-normal transition duration-300 ease-in-out font-bold">
                     YouTube
                   </span>
                 </a>
@@ -85,10 +85,10 @@ const AboutPage = () => {
                 <a
                   href="https://www.instagram.com/arifrizkik/"
                   target="_blank"
-                  className="group mr-3 flex h-9 w-9 items-center justify-center rounded-full border border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white"
+                  className="group mr-3 flex h-9 w-9 items-center justify-center rounded-full border border-slate-300 text-slate-300 hover:border-[#4458dc] hover:bg-[#4458dc] hover:text-white"
                 >
                   <FaInstagram className="h-6 w-6" />
-                  <span className="absolute mt-20 scale-0 rounded bg-primary text-white p-2 text-xs group-hover:scale-100 whitespace-normal transition duration-300 ease-in-out font-bold">
+                  <span className="absolute mt-20 scale-0 rounded bg-[#4458dc] text-white p-2 text-xs group-hover:scale-100 whitespace-normal transition duration-300 ease-in-out font-bold">
                     Instagram
                   </span>
                 </a>
@@ -97,10 +97,10 @@ const AboutPage = () => {
                 <a
                   href="https://www.linkedin.com/in/arif-rizki-kurniadi-944ab21b4/"
                   target="_blank"
-                  className="group mr-3 flex h-9 w-9 items-center justify-center rounded-full border border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white"
+                  className="group mr-3 flex h-9 w-9 items-center justify-center rounded-full border border-slate-300 text-slate-300 hover:border-[#4458dc] hover:bg-[#4458dc] hover:text-white"
                 >
                   <FaLinkedin className="h-6 w-6" />
-                  <span className="absolute mt-20 scale-0 rounded bg-primary text-white p-2 text-xs group-hover:scale-100 whitespace-normal transition duration-300 ease-in-out font-bold">
+                  <span className="absolute mt-20 scale-0 rounded bg-[#4458dc] text-white p-2 text-xs group-hover:scale-100 whitespace-normal transition duration-300 ease-in-out font-bold">
                     LinkedIn
                   </span>
                 </a>

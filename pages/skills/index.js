@@ -97,11 +97,11 @@ const SkillsPage = () => {
         <div className="container">
           <div className="w-full px-4">
             <div className="mx-auto mb-16 text-center">
-              <h4 className="mb-2 text-lg font-semibold uppercase text-primary">
+              <h4 className="mb-2 text-lg font-semibold uppercase text-[#4458dc]">
                 Skills
               </h4>
               <h2 className="mb-4 text-3xl font-bold text-dark dark:text-white sm:text-4xl lg:text-5xl">
-                Penguasaan Teknologi, Programming Language dan Tools
+                Penguasaan Teknologi, Problem Solving dan Manajemen Waktu
               </h2>
               <p className="text-medium font-medium text-secondary md:text-lg mt-10">
                 Ketika berbicara tentang penguasaan teknologi, pemahaman
@@ -109,10 +109,7 @@ const SkillsPage = () => {
                 kritis adalah kunci dalam menghadapi tantangan dunia teknologi
                 yang terus berkembang. Saya telah mengembangkan keahlian yang
                 cukup dalam berbagai bidang, yang memungkinkan saya untuk
-                merangkai solusi yang tangguh dan efektif. <br />
-                <br />
-                Berikut adalah list Teknologi, Programming Language dan Tools
-                yang saya kuasai.
+                merangkai solusi yang tangguh dan efektif. 
               </p>
             </div>
           </div>

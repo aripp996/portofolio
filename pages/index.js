@@ -17,7 +17,7 @@ const HomePage = () => {
         <div className="container">
           <div className="flex flex-wrap">
             <div className="w-full self-center px-4 lg:w-1/2">
-              <h1 className="text-base font-semibold text-primary md:text-xl">
+              <h1 className="text-base font-semibold text-[#4458dc] md:text-xl">
                 Halo Semua 👋, Saya
                 <span className="mt-1 block text-3xl font-bold text-dark dark:text-white lg:text-5xl">
                   ARIF RIZKI KURNIADI
@@ -49,7 +49,7 @@ const HomePage = () => {
 
               <Link
                 href="/tentang-saya"
-                className="rounded-full bg-primary px-5 py-2.5 text-base font-semibold text-white transition duration-300 ease-in-out hover:opacity-80 hover:shadow-lg md:px-8 md:py-3"
+                className="rounded-full bg-gradient-to-r from-[#4458dc] to-[#854fee] hover:from-white px-5 py-2.5 text-base border border-slate-100 hover:border-slate-600 font-semibold text-white hover:text-black transition duration-300 ease-in-out md:px-8 md:py-3 dark:text-dark dark:hover:from-[#010613] dark:hover:text-white"
               >
                 Tentang Saya
               </Link>
@@ -57,7 +57,7 @@ const HomePage = () => {
               <Link
                 href="/CurriculumVitae.pdf"
                 target="_blank"
-                className="ml-2 md:ml-5 rounded-full bg-dark text-white dark:bg-white dark:text-dark px-5 py-2.5 text-base font-semibold transition duration-300 ease-in-out hover:opacity-80 hover:shadow-lg md:px-8 md:py-3"
+                className="ml-2 md:ml-5 rounded-full bg-gradient-to-r from-[#854fee] to-[#c24fee] hover:from-white text-white hover:text-black border border-slate-100 hover:border-slate-600 dark:text-dark dark:hover:from-[#010613] dark:hover:text-white px-5 py-2.5 text-base font-semibold transition duration-300 ease-in-out md:px-8 md:py-3"
               >
                 Download CV
               </Link>
@@ -79,11 +79,11 @@ const HomePage = () => {
                     viewBox="0 0 200 200"
                     xmlns="http://www.w3.org/2000/svg"
                   >
-                    <path
-                      fill="#31B5D5"
+                    {/* <path
+                      fill="#f4f4f4"
                       d="M64.1,-21.5C70.9,-0.1,55.7,27.8,33.1,43.8C10.5,59.7,-19.4,63.8,-40.2,49.9C-61,36.1,-72.8,4.3,-64.5,-19.2C-56.3,-42.7,-28.2,-57.9,0.3,-57.9C28.7,-58,57.4,-43,64.1,-21.5Z"
                       transform="translate(100 100) scale(1.1)"
-                    />
+                    /> */}
                   </svg>
                 </span>
               </div>

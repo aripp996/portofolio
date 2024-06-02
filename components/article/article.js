@@ -126,35 +126,6 @@ const ArticleLayout = ({ posts, tag }) => {
                   }}
                 ></div>
               </div>
-              {/* <svg
-                className="midnight:hidden absolute inset-0 -z-10 h-full w-full stroke-accent/50 [mask-image:radial-gradient(100%_100%_at_top_right,white,transparent)]"
-                aria-hidden="true"
-              >
-                <defs>
-                  <pattern
-                    id="83fd4e5a-9d52-42fc-97b6-718e5d7ee527"
-                    width="200"
-                    height="200"
-                    x="50%"
-                    y="-1"
-                    patternUnits="userSpaceOnUse"
-                  >
-                    <path d="M100 200V.5M.5 .5H200" fill="none"></path>
-                  </pattern>
-                </defs>
-                <svg x="50%" y="-1" className="overflow-visible fill-accent/20">
-                  <path
-                    d="M-100.5 0h201v201h-201Z M699.5 0h201v201h-201Z M499.5 400h201v201h-201Z M-300.5 600h201v201h-201Z"
-                    strokeWidth="0"
-                  ></path>
-                </svg>
-                <rect
-                  width="100%"
-                  height="100%"
-                  strokeWidth="0"
-                  fill="url(#83fd4e5a-9d52-42fc-97b6-718e5d7ee527)"
-                ></rect>
-              </svg> */}
               <div className="mx-auto max-w-screen-2xl overflow-hidden pt-16 sm:pt-16 md:pb-0 md:pt-16 lg:grid lg:grid-cols-12 lg:items-center lg:pb-28 lg:pt-40">
                 <div className="col-span-6 col-start-2 ml-0 max-w-2xl px-4 sm:px-6 lg:ml-[-1rem] lg:flex-auto lg:px-0 lg:pl-0 lg:pr-16 xl:ml-[-0.5rem]">
                   <h1 className="text-2xl font-bold tracking-tighter dark:text-white sm:text-3xl lg:max-w-lg lg:text-4xl/[2.5rem]">

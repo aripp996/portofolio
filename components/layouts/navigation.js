@@ -4,24 +4,11 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 
 const Navigation = () => {
-  // const [menus, setMenus] = useState([]);
   const [isMobile, setIsMobile] = useState(false);
   const [darkMode, setDarkMode] = useState(false);
   const [hamburger, setHamburger] = useState(false);
   const [navbar, setNavbar] = useState(false);
   const pathName = usePathname();
-
-  // const fetchData = async () => {
-  //   try {
-  //     const response = await fetch(
-  //       `${process.env.NEXT_PUBLIC_BASE_URL}/api/menu`
-  //     );
-  //     const data = await response.json();
-  //     setMenus(data.data);
-  //   } catch (error) {
-  //     console.log(error);
-  //   }
-  // };
 
   const handleDarkMode = () => {
     const currentTheme = !darkMode;
@@ -75,9 +62,6 @@ const Navigation = () => {
   ];
 
   return (
-    // <header
-    //   className={`navbar-fixed fixed top-0 z-10 w-full items-center border-b border-dark/20 dark:border-white/20 bg-transparent transition-all duration-300 ease-in-out`}
-    // >
     <header
       className={`absolute left-0 top-0 z-10 flex w-full items-center bg-transparent ${
         navbar ? "navbar-fixed" : ""
@@ -158,9 +142,9 @@ const Navigation = () => {
                     href={menu.target}
                     className={`group mx-2 ${
                       isMobile ? "my-2" : ""
-                    } flex cursor-pointer rounded-full px-4 py-2 text-base transition duration-300 hover:bg-blue-200/60 hover:text-cyan-600 hover:dark:bg-cyan-300/20 hover:dark:text-cyan-600 ${
+                    } flex cursor-pointer rounded-full px-4 py-2 text-base transition duration-300 hover:bg-[#4458dc]/30 hover:text-[#4458dc] hover:dark:bg-[#4458dc]/20 hover:dark:text-[#4458dc] ${
                       pathName === menu.target
-                        ? "bg-cyan-200/60 text-cyan-600 dark:bg-cyan-300/30 dark:text-cyan-600"
+                        ? "bg-[#4458dc]/40 text-[#4458dc] dark:bg-[#4458dc]/30 dark:text-[#4458dc]"
                         : "text-accents-300 dark:text-slate-400"
                     }`}
                     key={index}
@@ -179,8 +163,8 @@ const Navigation = () => {
                         <div
                           className={`group toggle-icon rounded-full p-1 ${
                             darkMode
-                              ? "hover:dark:bg-cyan-300/20" //dark
-                              : "hover:bg-blue-200/60" //light
+                              ? "hover:dark:bg-[#4458dc]/20" //dark
+                              : "hover:bg-[#4458dc]/60" //light
                           }`}
                         >
                           {darkMode ? (
