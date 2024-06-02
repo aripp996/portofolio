@@ -17,7 +17,6 @@ const data = [
   { title: "Skills", target: "/skills" },
   { title: "Pendidikan", target: "/pendidikan" },
   { title: "Pengalaman", target: "/pengalaman" },
-  { title: "Blog", target: "/blog" },
 ];
 
 export default handler;
