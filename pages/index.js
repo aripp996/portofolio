@@ -34,14 +34,19 @@ const HomePage = () => {
                     "Frontend development",
                   ]}
                   typeSpeed={40}
-                  loop={true} 
+                  loop={true}
                   backSpeed={15}
                   className="font-bold text-dark dark:text-white"
                 />
               </h2>
 
               <p className="mb-10 font-medium leading-relaxed text-accents-300 dark:text-white/80">
-                &quot;<i>Keberhasilan bukanlah milik orang yang pintar. Keberhasilan adalah kepunyaan mereka yang senantiasa berusaha</i>&ldquo;{" "}
+                &quot;
+                <i>
+                  Keberhasilan bukanlah milik orang yang pintar. Keberhasilan
+                  adalah kepunyaan mereka yang senantiasa berusaha
+                </i>
+                &ldquo;{" "}
                 <span className="font-bold text-dark dark:text-white">
                   - B.J.Habibie
                 </span>
