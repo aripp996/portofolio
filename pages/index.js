@@ -72,8 +72,8 @@ const HomePage = () => {
               <div className="relative mt-10 lg:right-0 lg:mt-0">
                 <Image
                   alt="Arman Dwi Pangestu"
-                  src="/me.png"
-                  className="relative z-[1] mx-auto max-w-full"
+                  src="/me2.png"
+                  className="relative z-[1] mx-auto max-w-full rounded-full transition-transform duration-200 active:translate-y-2"
                   width={417}
                   height={598}
                 />
