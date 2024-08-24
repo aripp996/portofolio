@@ -30,11 +30,11 @@ const HomePage = () => {
                   strings={[
                     "Junior Web Developer",
                     "Technology Enthusiasts",
-                    "Self Motivated",
-                    "Reliable",
+                    "UI/UX Designer",
+                    "Frontend development",
                   ]}
                   typeSpeed={40}
-                  
+                  loop={true} 
                   backSpeed={15}
                   className="font-bold text-dark dark:text-white"
                 />

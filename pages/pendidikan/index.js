@@ -31,15 +31,15 @@ const EducationPage = () => {
                   <div className="flex-start flex items-center pt-3">
                     <div className="-ml-[5px] mr-3 h-[9px] w-[9px] rounded-full bg-[#4458dc]"></div>
                     <p className="inline-flex items-center rounded-full border border-[#4458dc]/40 bg-[#4458dc]/10 px-3 py-1 text-xs font-medium tracking-tight text-[#4458dc] transition-colors hover:bg-[#4458dc]/20 focus:outline-none">
-                      Agustus 2024 - 
+                      Agustus 2024 - Sekarang
                     </p>
                   </div>
                   <div className="mb-6 ml-4 mt-2">
                     <h4 className="tex-dark mb-1.5 text-xl font-semibold dark:text-white">
-                      ON COMING
+                      Institut Teknologi PLN
                     </h4>
                     <p className="mb-3 text-neutral-500 dark:text-neutral-300">
-                      ON COMING
+                      S1-Sistem informasi
                     </p>
                   </div>
                 </li>
